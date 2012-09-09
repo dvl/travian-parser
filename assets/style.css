@@ -1,0 +1,76 @@
+html {
+	background-image: url("body_bg.jpg");
+	background-repeat: no-repeat;
+	background-color: #A0B978;
+	background-attachment: scroll;
+	background-position: center top; 
+}
+body {
+	font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+	font-size: 10pt;
+	margin:50px 0px; padding:0px;
+	text-align:center;
+}
+
+label {
+	width: 120px;
+	float: left;
+	text-align: right;
+	margin-right: 8px;
+	display: block
+}
+
+fieldset {
+	border: 1px solid #CCCCCC;
+	width: auto;
+	margin: 5px;
+}
+
+legend {
+	color: #fff;
+	font-weight: bold;
+	background: #99C01A;
+	border: 1px solid #137851;
+	padding: 2px 6px
+}
+
+input, textarea {
+	color: #99C01A;
+	font-weight: bold;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 3px;
+}
+
+input[type=submit], input[type=reset] { 
+	color: white;
+	border: 1px	solid black;
+	border-top: 1px solid darkgray; 
+	border-left: 1px solid darkgray; 
+	padding: 5px;
+	width: 60px;
+}
+
+input[type=submit] {
+	background-color: orange;
+}
+
+input[type=reset] { 
+	background-color: red;
+}
+
+input[type=submit]:hover {
+	background-color: darkorange;
+}
+
+input[type=reset]:hover {
+	background-color: darkred;
+}
+
+#content {
+	width: 920px;
+	margin: 0px auto;
+	text-align: left;
+	padding: 15px;
+	border: 1px dashed #333;
+	background-color: #eee;
+}
