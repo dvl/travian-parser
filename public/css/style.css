@@ -1,0 +1,32 @@
+body {
+	background: #E6E6E6 url("../img/body_bg.jpg");
+	padding-top: 30px;
+}
+
+#header img { 
+	margin: 16px;	
+}
+
+#content {
+	border-top: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+ul {
+	margin-left: 30px !important;
+}
+
+#content > * {
+	margin: 16px;
+}
+
+#footer p {
+	color: #999;
+	text-align: left;
+	font-size: x-small;
+	margin: 16px;
+}
+
+#header, #content, #footer {
+	background: #fff;
+}
