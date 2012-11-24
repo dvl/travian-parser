@@ -1,0 +1,10 @@
+# TEAM
+
+    dvl -- programmer -- contato@xdvl.info
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Bootstrap
+    Slim Framework (http://www.slimframework.com/), Snoopy (http://snoopy.sourceforge.net/), PHP Simple HTML DOM Parser (http://simplehtmldom.sourceforge.net/)
+    Sublime Text 2
