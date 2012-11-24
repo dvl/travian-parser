@@ -32,8 +32,7 @@
 			</div>
 
 			<div class="span8" id="footer">
-				<p>by: dvl - Internal use only<br />
-					&copy; 2004 - 2012 Travian Games GmbH</p>
+				<p>by: dvl - Internal use only</p>
 				</div>
 
 			</div>
