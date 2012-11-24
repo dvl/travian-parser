@@ -32,7 +32,7 @@
 			</div>
 
 			<div class="span8" id="footer">
-				<p>by: dvl - Internal use only</p>
+				<p>For internal use only<br />Desenvolvido por: dvl - http://xdvl.info/</p>
 				</div>
 
 			</div>
