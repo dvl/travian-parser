@@ -104,10 +104,12 @@ class Parser {
 
 		$msg = str_replace('<img src="http://img.travian.org/temp/ww100.gif"   style="float:right;">','',$this->fetch_msg());
 
-		$duracao = floor((strtotime($infos['fim']) - strtotime($infos['inicio'])) / (60*60*24));
+		$DateTime = new DateTime($infos['inicio']);
+
+		$diff = $DateTime->diff(new DateTime($infos['fim']));
 
 		$infos_old = array('$servidor$','$duracao$','$inicio$','$fim$','$msg$');
-		$infos_new = array($infos['titulo'],$duracao,$infos['inicio'],$infos['fim'],$msg);
+		$infos_new = array($infos['titulo'],$diff->days,$infos['inicio'],$infos['fim'],$msg);
 		$content = str_replace($infos_old,$infos_new,$content);
 
 		return $content;

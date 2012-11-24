@@ -8,8 +8,8 @@
 	<div class="control-group">
 		<label class="control-label">Data de Inicio</label>
 		<div class="controls">
-			<div class="input-append date datapicker" data-date="12/02/2012" data-date-format="dd/mm/yyyy">
-				<input class="span2" size="16" name=info[inicio] type="text" value="12/02/2012" readonly required>
+			<div class="input-append date datapicker" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+				<input class="span2" size="16" name="info[inicio]" type="text" value="12-02-2012" readonly required>
 				<span class="add-on"><i class="icon-calendar"></i></span>
 			</div>
 		</div>
@@ -17,8 +17,8 @@
 	<div class="control-group">
 		<label class="control-label">Data de Fim</label>
 		<div class="controls">
-			<div class="input-append date datapicker" data-date="12/12/2012" data-date-format="dd/mm/yyyy">
-				<input class="span2" size="16" name="info[fim]" type="text" value="12/12/2012" readonly required>
+			<div class="input-append date datapicker" data-date="12-12-2012" data-date-format="dd-mm-yyyy">
+				<input class="span2" size="16" name="info[fim]" type="text" value="12-12-2012" readonly required>
 				<span class="add-on"><i class="icon-calendar"></i></span>
 			</div>
 		</div>
