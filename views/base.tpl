@@ -21,6 +21,12 @@
 
 			<div class="span8" id="content">
 
+				<?php 
+					if (phpversion() < 5.3) {
+						echo '<div class="alert alert-error"><strong>Aviso!</strong> Essa aplicação não funciona em servidores com a versão do PHP menor que a 5.3.</div>';
+					}
+				?>
+
 				<?php include($inner); ?>
 
 			</div>
